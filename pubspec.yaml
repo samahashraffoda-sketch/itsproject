@@ -1,0 +1,39 @@
+name: itsproject
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/play_galaxy.jpg
+    - assets/Funny_animals.jpg
+    - assets/small_dog.jpg
+    - assets/small_cat.jpg
+    - assets/small_cow.jpg
+    - assets/Out_Space.jpg
+    - assets/football.png
+    - assets/puzzle.png
+    - assets/memory.jpg
+    - assets/background_football.jpg
+    - assets/painting.png
+    - assets/levels/level_1.jpg
+    - assets/levels/level_2.jpg
+    - assets/levels/level_3.jpg
+    - assets/levels/level_4.jpg
