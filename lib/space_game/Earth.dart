@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:itsproject/space_game/END_GAME.dart';
+import 'package:play_galaxy/space_game/END_GAME.dart';
 void main(){
   runApp(Earth());
 }

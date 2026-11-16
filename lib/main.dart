@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:itsproject/pages//main_page.dart';
+import "package:play_galaxy/pages//main_page.dart";
 
 void main() {
   debugPaintSizeEnabled = false;

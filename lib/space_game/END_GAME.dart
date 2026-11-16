@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itsproject/main.dart';
+import 'package:play_galaxy/main.dart';
 
 class EndGame extends StatelessWidget {
   EndGame({super.key});

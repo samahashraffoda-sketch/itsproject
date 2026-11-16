@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:itsproject/main.dart';
+import 'package:play_galaxy/main.dart';
 
 
 void main() => runApp(Memory());

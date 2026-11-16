@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:itsproject/pages/Small_cow.dart';
-import 'package:itsproject/pages/Small_cat.dart';
-import 'package:itsproject/pages/small_dog.dart';
+import 'package:play_galaxy/pages/Small_cow.dart';
+import 'package:play_galaxy/pages/Small_cat.dart';
+import 'package:play_galaxy/pages/small_dog.dart';
 
 
 class Funny_Animals  extends StatelessWidget {

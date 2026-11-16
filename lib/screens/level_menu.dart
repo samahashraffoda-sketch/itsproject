@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itsproject/screens/puzzle.dart';
+import 'package:play_galaxy/screens/puzzle.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class levelMenu extends StatefulWidget {

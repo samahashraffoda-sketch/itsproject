@@ -1,6 +1,6 @@
-# itsproject
+# play_galaxy
 
-A new Flutter project.
+A fun galaxy of five easy and entertaining games for kids.
 
 ## Getting Started
 

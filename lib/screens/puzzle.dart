@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itsproject/models/image_splitter.dart';
-import 'package:itsproject/models/puzzle_pieces.dart';
+import 'package:play_galaxy/models/image_splitter.dart';
+import 'package:play_galaxy/models/puzzle_pieces.dart';
 import 'dart:ui'as ui;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/services.dart';

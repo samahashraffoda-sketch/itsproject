@@ -1,5 +1,6 @@
-name: itsproject
-description: "A new Flutter project."
+name: play_galaxy
+description: "A fun galaxy of five 
+    easy and entertaining games for kids."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -28,7 +29,6 @@ flutter:
     - assets/small_cat.jpg
     - assets/small_cow.jpg
     - assets/Out_Space.jpg
-    - assets/football.png
     - assets/puzzle.png
     - assets/memory.jpg
     - assets/background_football.jpg

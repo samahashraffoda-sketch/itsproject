@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:itsproject/pages/Funny_Animals.dart';
-import 'package:itsproject/space_game/Earth.dart';
-import 'package:itsproject/space_game/football.dart';
-import 'package:itsproject/space_game/memory.dart';
-import 'package:itsproject/space_game/painting.dart';
-import 'package:itsproject/screens/puzzle.dart';
+import 'package:play_galaxy/pages/Funny_Animals.dart';
+import 'package:play_galaxy/space_game/Earth.dart';
+import 'package:play_galaxy/space_game/memory.dart';
+import 'package:play_galaxy/space_game/painting.dart';
+import 'package:play_galaxy/screens/puzzle.dart';
 
 class main_page extends StatelessWidget {
   main_page({super.key});
@@ -16,7 +15,6 @@ double screenHeight = MediaQuery.of(context).size.height;
 final List<String> myImages=[
   "assets/Funny_animals.jpg",
   "assets/Out_Space.jpg",
-  "assets/football.png",
   "assets/puzzle.png",
   "assets/memory.jpg",
   "assets/painting.png",
@@ -43,14 +41,12 @@ final List<String> myImages=[
                 );
               } else if(index ==1){
                    Navigator.push(context, MaterialPageRoute(builder: (context)=> Earth()));
-                }else if(index ==2){
-                Navigator.push(context, MaterialPageRoute(builder:(context)=> football()));
-              }else if(index==3){
+                }else if(index==2){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>puzzle(level:1)));
-              }else if(index==4) {
+              }else if(index==3) {
                 Navigator.push(
                     context, MaterialPageRoute(builder: (context) => Memory()));
-              } else if(index==5){
+              } else if(index==4){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>painting ()));
               }
             },
